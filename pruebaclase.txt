@@ -1,0 +1,24 @@
+clase miercoles 23 09 2020 nuevo usuario
+
+git clone ULR -> clonar el proyecto en una nueva carpeta y 
+lo vincula con la URL
+
+---------------------------------------
+CICLO DE TRABAJO
+---------------------------------------
+git status -> ver estado
+
+Trabajamos en los archivos
+
+git add . -> pasar los archivos al area de staging o indice
+
+git commit -m "mensaje"  -> confirmar los cambios en local
+
+git push  -> subir el/los commit a la nube
+
+Dia siguiente:
+
+git fetch -> actualiza indices de archivos
+
+git pull -> descarga el nuevo codigo/actualizaciones 
+
