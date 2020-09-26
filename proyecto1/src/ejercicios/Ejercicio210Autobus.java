@@ -1,5 +1,6 @@
 package ejercicios;
 
+// ejercicios.Ejercicio210Autobus
 import java.util.Scanner;
 
 public class Ejercicio210Autobus {
@@ -12,13 +13,15 @@ public class Ejercicio210Autobus {
 	private static final String BUS_B = "B";
 	private static final String BUS_C = "C";
 
+	private static Scanner sc;
+
 	public static void main(String[] args) {
 		// tres costos diferentes por km
 		// para cada autobus
 		// minimo 20 personas
 		// determinar costo total
 		// determinar costo por persona
-		Scanner sc = new Scanner(System.in);
+		sc = new Scanner(System.in);
 
 		// solicitar la cantidad de personas
 		System.out.println("Ingrese cantidad de personas");
